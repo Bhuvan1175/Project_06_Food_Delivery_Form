@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('h.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:20px;
+    padding:20px;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: rgba(206, 197, 197, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 24px; 
+    color: rgba(199, 0, 120, 1);
+    margin-bottom: 20px;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 30px;  
+    margin-bottom: 20px;
+    animation: colorChange 3s infinite alternate; 
+}
+
+@keyframes colorChange {
+    0% {
+        color: rgba(199, 0, 120, 1);
+    }
+    50% {
+        color:rgb(255, 251, 0); 
+    }
+    35%{
+        color:gold;
+    }
+    15%{
+        color: aquamarine;
+    }
+}
+
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+}
+
+label,
+input,
+textarea,
+select {
+    display: flex;
+    margin-bottom:5px;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color:cadetblue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.summary {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+.summary h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #dfc90a;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    
+}
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+}
+#foodItems {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #9c81353d;
+    border-radius: 5px;
+    height: 60px;
+}
+.summary {
+    background-color: rgba(59, 221, 221, 0.911);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+.summary h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.summary p {
+    margin-bottom: 5px;
+    color: black;
+}
+
+#summaryTotalPrice {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: #999;
+}
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+select:hover,
+textarea:hover {
+    border-color: #eaee1a;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; 
+}
